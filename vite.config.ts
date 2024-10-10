@@ -31,8 +31,8 @@ export default defineConfig({
         },
     },
     build: {
-    rollupOptions: {
-        maxParallel: 2, // You can adjust this number as needed
+        rollupOptions: {
+            maxParallel: 2, // You can adjust this number as needed
+        },
     },
-}
 });
