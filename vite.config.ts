@@ -30,4 +30,9 @@ export default defineConfig({
             '@': path.resolve(__dirname, './src'),
         },
     },
+    build: {
+    rollupOptions: {
+        maxParallel: 2, // You can adjust this number as needed
+    },
+}
 });
